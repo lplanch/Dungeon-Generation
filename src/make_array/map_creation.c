@@ -6,7 +6,7 @@
 */
 
 #include "my.h"
-#include "../../include/procedural.h"
+#include "procedural.h"
 
 void increment_proc_struct(proc_var_t *pvar, proc_t *proc)
 {

@@ -6,7 +6,7 @@
 */
 
 #include "my.h"
-#include "../../include/procedural.h"
+#include "procedural.h"
 
 void make_icorner_topleft_block(sfTexture *blocks, smap_t *smap)
 {

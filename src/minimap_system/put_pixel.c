@@ -6,7 +6,7 @@
 */
 
 #include "my.h"
-#include "../../include/procedural.h"
+#include "procedural.h"
 
 framebuffer_t *framebuffer_create(unsigned int width, unsigned int height)
 {

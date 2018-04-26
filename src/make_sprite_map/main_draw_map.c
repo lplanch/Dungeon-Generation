@@ -6,7 +6,7 @@
 */
 
 #include "my.h"
-#include "../../include/procedural.h"
+#include "procedural.h"
 
 smap_t *generate_block(sfTexture *blocks, char chr, smap_t *smap)
 {
