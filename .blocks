@@ -1,0 +1,17 @@
+T = top block
+V = bottom block
+L = left block
+R = right block
+
+E = entry pos
+S = exit pos
+
+A = top left corridor
+P = top right corridor
+W = bottom right corridor
+N = botom left corridor
+
+Z = interior top left corridor
+O = interior top right corridor
+U = interior bottom left corridor
+I = interior bottom right corridor
