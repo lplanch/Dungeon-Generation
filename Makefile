@@ -9,9 +9,9 @@ NAME		=	proc
 
 CC		=	cc
 
-CFLAGS		+=	-g -I ../include/
+CFLAGS		+=	-g -I include/
 
-LDFLAGS		+=	-L ../lib/my/ -lmy -l c_graph_prog
+LDFLAGS		+=	-L lib/my/ -lmy -l c_graph_prog
 
 FILES		=	src/main_proc.c					\
 			src/make_array/map_creation.c			\
@@ -53,7 +53,7 @@ all:			$(NAME)
 $(NAME):	$(OBJ)
 	@echo -e '${BG_COLOR}Flags: $(LDFLAGS) $(CFLAGS)${NC}'
 	@echo -e '${RED}Create${NC}: ${GREY}./$(NAME)${NC}'
-	@make -C ../lib/my/
+	@make -C lib/my/
 	@$(CC) $(OBJ) -o $(NAME) $(LDFLAGS)
 
 %.o:		%.c
@@ -68,12 +68,12 @@ clean:
 	@rm -f gmon.out
 	@rm -rf a.out
 	@find . -name *.gc* -delete
-	@make clean -C ../lib/my/
+	@make clean -C lib/my/
 	@echo -e '${RED}Clean proc${NC} : OK'
 
 fclean:		clean
 	@rm -rf $(NAME)
-	@make fclean -C ../lib/my/
+	@make fclean -C lib/my/
 	@echo -e '${RED}Fclean proc${NC}: ./$(NAME) removed'
 
 re:		fclean all
