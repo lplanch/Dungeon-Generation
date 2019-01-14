@@ -11,4 +11,4 @@ $ ./proc
 
 # Screenshots
 ![screen 1](https://github.com/lplanch/my_procedural_rpg_2017/blob/master/ressources/screen_1.png)<br>
-[](https://github.com/lplanch/my_procedural_rpg_2017/blob/master/ressources/screen_2.png)<br>
+![screen 2](https://github.com/lplanch/my_procedural_rpg_2017/blob/master/ressources/screen_2.png)<br>
