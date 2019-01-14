@@ -1,6 +1,4 @@
 # my_procedural_rpg_2017
-My work about the rpg : I did more lol but thats the procedural generation
+Dungeon generation procedurally done with CSFML.<br>
+This work is a part of the project **my_rpg** realized in 2018.<br>
 
-Welcome to my_rpg ! Its an Epitech's project made in Tek 1!
-So to try my procedural generation, type :
-- make re && ./proc
